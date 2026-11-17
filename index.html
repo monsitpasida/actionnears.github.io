@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Action Nears Bot</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d1d1f; --muted:#5f6368; --card:#fff; --line:#e3e3e0; --accent:#06c755; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161617; --fg:#f2f2f2; --muted:#a8a8ad; --card:#1f1f21; --line:#333336; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 system-ui,-apple-system,"Segoe UI","Noto Sans Thai",sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin-bottom:16px; }
+  h2 { font-size:1.1rem; margin:0 0 8px; }
+  ul { margin:0; padding-left:1.2em; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:.9rem; margin-top:32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Action Nears Bot</h1>
+  <p class="sub">ผู้ช่วย AI ดูแลงานและโปรเจคของทีม ใช้งานผ่าน LINE</p>
+
+  <div class="card">
+    <h2>บอทนี้ทำอะไร</h2>
+    <ul>
+      <li>รับคำสั่งงานเป็นภาษาธรรมดาใน LINE แล้วบันทึกเป็นงาน พร้อมผู้รับผิดชอบและกำหนดส่ง</li>
+      <li>ติดตามสถานะงานและสรุปความคืบหน้าของโปรเจคให้ทีม</li>
+      <li>เก็บรูปและไฟล์ที่ทีมส่งในแชทขึ้น Google Drive ของผู้ดูแล แยกโฟลเดอร์ตามโปรเจค</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>ใครใช้ได้</h2>
+    <p style="margin:0">ใช้ได้เฉพาะสมาชิกทีมที่สมัครและได้รับอนุมัติจากผู้ดูแลระบบเท่านั้น</p>
+  </div>
+
+  <div class="card">
+    <h2>การใช้ Google Drive</h2>
+    <p style="margin:0">บอทขอสิทธิ์เฉพาะ <code>drive.file</code> คือเข้าถึงได้เฉพาะไฟล์และโฟลเดอร์ที่บอทสร้างเอง ไม่สามารถเห็นหรือแก้ไขไฟล์อื่นใน Google Drive ของผู้ใช้</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">นโยบายความเป็นส่วนตัว (Privacy Policy)</a>
+  </footer>
+</main>
+</body>
+</html>
